@@ -1,4 +1,6 @@
-# Spatiotemporal Analysis of Lime's Scooter's GBFS Data from Paris :scooter:
+# Spatiotemporal Analysis of Lime's Scooter's GBFS Data from Paris :kick_scooter:
+
+![TimeFrames](time_Frames.gif)
 
 This project represents the Spatiotemporal Anaysis of Micromobility in Paris.
 
@@ -8,17 +10,17 @@ A scrapping script was developed to consume the GBFS data from the Operator “L
 
 #  Spatiotemporal Analysis Analysis
 
-Equitable geographical distribution of the scooters
-Density parked scooters during the day by hour
-Percentage change of parked scooters by time frames
-Usage of public space by the scooters
-Are scooters inside the “non parking”/ “no scooters” areas?
+* Equitable geographical distribution of the scooters
+* Density parked scooters during the day by hour
+* Percentage change of parked scooters by time frames
+* Usage of public space by the scooters
+* Are scooters inside the “non parking”/ “no scooters” areas?
 
 # About GBFS
 The General Bikeshare Feed Specification, known as GBFS, is the open data standard for shared mobility. GBFS makes real-time data feeds in a uniform format publicly available online, with an emphasis on findability. GBFS is intended to make information publicly available online; therefore information that is personally identifiable is not currently and will not become part of the core specification. For more information [follow this link](https://github.com/MobilityData/gbfs).
 
 # GBFS Limitations
-• To guarantee personal privacy, the identification number of the vehicles in GBFS are not statical, they change in various scenarios, so there is no direct way to recreate origin-destinations patterns.
-• The data only show non-rented devices, in other words, if a vehicle is actively being used, it is not registered.
-• GPS precision is a constraint to properly determine on a big scale, the proper location of the vehicles. For example, to determine if the vehicle is on the sidewalk or in the street.
-• It is not possible to access to personal data of the users like gender, age, address, to enrich the analysis.
+* To guarantee personal privacy, the identification number of the vehicles in GBFS are not statical, they change in various scenarios, so there is no direct way to recreate origin-destinations patterns.
+* The data only show non-rented devices, in other words, if a vehicle is actively being used, it is not registered.
+*  GPS precision is a constraint to properly determine on a big scale, the proper location of the vehicles. For example, to determine if the vehicle is on the sidewalk or in the street.
+* It is not possible to access to personal data of the users like gender, age, address, to enrich the analysis.
